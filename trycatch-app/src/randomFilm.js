@@ -996,7 +996,7 @@ function sendToTitle()
 	localAssignment = localAssignment.replace(/\//gi, "%2F");
 	localAssignment = localAssignment.replace(/\\/gi, "%5C");
 	
-	var url = "1080template.html?assignment="+localAssignment;
+	var url = "src/1080template.html?assignment="+localAssignment;
 	window.open(url, "_blank");
 }
 
