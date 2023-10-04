@@ -1,0 +1,172 @@
+:root {
+	--PAGE_COLOR: #BCEADF;
+	--TEXT: "black"
+	--LIGHT: #88E2EE;
+	--MEDIUM: #1DB9CE;
+	--DARK: #1B47A5;
+	--ACCENT: #FB6C89;
+}
+
+body{
+	background-color: var(--PAGE_COLOR);
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	align-content: center;
+}
+
+a:visited {
+	color: var(--ACCENT);
+}
+
+a:link {
+	color: var(--ACCENT);
+}
+
+p {
+	background-color: var(--LIGHT);
+	border-radius: 15px;
+	font-family: monospace;
+	font-weight:bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+p.tryCatchBlock 
+	padding: 15px;
+	margin: 15px;
+	font-size: 72pt;
+}
+
+h1 {
+	border-radius: 3px;
+	font-family: monospace;
+	font-weight:bold;
+	color: var(--TEXT);
+}
+
+div {
+	background-color: var(--LIGHT);
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+	font-family: monospace;
+	margin-left:10%;
+	margin-right: 10%;
+	align-content: center;
+	text-align: center;
+}
+
+div.dark{
+	background-color: var(--MEDIUM);
+	
+}
+
+div.nopadding
+{
+	padding: 0;
+}
+
+.top_bar{
+	background-color: var(--DARK);
+	padding: 10px;
+	font-family: monospace;
+	color: var(--PAGE_COLOR);
+	border-radius: 0px;
+	margin: 0px;
+	border: none;
+	font-weight: bolder;
+}
+
+.hiddendiv {
+	display: none;
+}
+
+.noHover:hover {
+	background-color: var(--MEDIUM);
+}
+
+.menu {
+	margin-top: -2px;
+	background-color: var(--MEDIUM);
+	color: var(--TEXT);
+	border-radius: 0px;
+}
+
+.menuBox {
+	margin-top: 0px;
+	background-color: var(--MEDIUM);
+	color: var(--PAGE_COLOR);
+	border-bottom-right-radius: 5px;
+}
+
+.noMargin{
+	margin: 0px;
+}
+
+.filmArrayDiv{
+	padding: 0px;
+	background-color: var(--MEDIUM);
+}
+
+.filmArray {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: var(--LIGHT);
+	color: var(--TEXT);
+	border-radius: 0px;
+}
+
+p.filmCompany {
+	font-size: 18pt;
+	font-size: 1.8vw;
+	margin: 0;
+}
+
+p.filmTitle {
+	font-size: 28pt;
+	margin: 0;
+	background-color: var(--LIGHT);
+}
+a.menu {
+	opacity: 100;
+	background-color: var(--MEDIUM);
+	color: var(--TEXT);
+}
+
+td {
+	background-color: var(--PAGE_COLOR);
+	padding: 10px;
+	border-radius: 3px;
+	font-family: monospace;
+	font-weight:bold;
+}
+
+.menu:hover {
+	background-color: var(--ACCENT);
+	color: var(--DARK);
+}
+
+button {
+	background-color: var(--ACCENT);
+	border-style: solid;
+	border-color: var(--ACCENT);
+	padding: 10px;
+	border-radius: 3px;
+	font-family: monospace;
+	color: var(--LIGHT);
+	font-weight: bolder;
+}
+
+button:hover {
+	background-color: var(--LIGHT);
+	color: var(--TEXT);
+	border-color: var(--DARK);
+}
+
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>1080 Template</title>
+</head>
+<canvas id="myCanvas" width="1920px" height="1080px"></canvas>
+<script>
+window.onload = function(){
+ var canvas = document.getElementById("myCanvas");
+ var context = canvas.getContext("2d");
+ var imageObj = new Image();
+ imageObj.onload = function(){
+     context.drawImage(imageObj, 0, 0);
+     context.font = "48px monospace";
+	 var query = window.location.search.substring(1);
+	 var vars = query.split('&');
+     for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+		var displayText = pair[1];
+		displayText = displayText.replace(/%2E/gi, ".");
+		displayText = displayText.replace(/%20/gi, " ");
+		displayText = displayText.replace(/%2C/gi, ",");
+		displayText = displayText.replace(/%27/gi, "'");
+		displayText = displayText.replace(/%2F/gi, "\/F");
+		displayText = displayText.replace(/%5C/gi, "\\");
+		var withBreaks = displayText.replace(/(?![^\n]{1,56}$)([^\n]{1,56})\s/g, '$1\n');
+		var lineArray = withBreaks.split('\n');
+		var lineHeight = 48;
+		for (var i = 0; i < lineArray.length; i++)
+			context.fillText(lineArray[i], 300, 680 + (i*lineHeight));
+	 }  
+     
+ };
+ imageObj.src = "images/trycatch1080template.png"; 
+};
+</script>
+<body>
+</body>
+</html>
