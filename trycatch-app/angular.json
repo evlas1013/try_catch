@@ -16,6 +16,7 @@
             "outputPath": "dist/trycatch-app",
             "index": "src/index.html",
             "main": "src/main.ts",
+		  	"baseHref": "/",
             "polyfills": [
               "zone.js"
             ],
@@ -28,7 +29,7 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": ["src/randomFilm.js", "src/filmArray.js"]
+            "scripts": ["src/assets/randomFilm.js", "src/assets/filmArray.js"]
           },
           "configurations": {
             "production": {

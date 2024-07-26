@@ -745,7 +745,7 @@ var traitTwo =
 		"just getting out of a messy divorce",		
 		"obsessed with 90's pop culture",		
 		"hiding a secret",		
-		"seaching for their purpose in life",		
+		"searching for their purpose in life",		
 		"on the brink of a great discovery",		 
 		"dealing with the loss of a cat",		 
 		"trying to find their purpose in life",		 
