@@ -1007,7 +1007,7 @@ async function callGPT(inQuery)
 	  method: 'POST',
 	  headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'Bearer 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'
+		'Authorization': 'Bearer {OpenAPI_KEY}'
 	  },
 	  body: JSON.stringify({
 		'model': 'gpt-3.5-turbo',
@@ -1042,7 +1042,7 @@ async function callMidJourney(inQuery, imageId, captionId)
 	method: 'POST',
 	  headers: {
 		'Content-Type': 'application/json',
-		'Authorization': 'Bearer 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'
+		'Authorization': 'Bearer {OpenAPI_KEY}'
 	  },
 	  body: JSON.stringify({
 		'prompt': prompt,
