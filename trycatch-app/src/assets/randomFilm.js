@@ -745,7 +745,7 @@ var traitTwo =
 		"just getting out of a messy divorce",		
 		"obsessed with 90's pop culture",		
 		"hiding a secret",		
-		"seaching for their purpose in life",		
+		"searching for their purpose in life",		
 		"on the brink of a great discovery",		 
 		"dealing with the loss of a cat",		 
 		"trying to find their purpose in life",		 
@@ -996,7 +996,7 @@ function sendToTitle()
 	localAssignment = localAssignment.replace(/\//gi, "%2F");
 	localAssignment = localAssignment.replace(/\\/gi, "%5C");
 	
-	var url = "1080template.html?assignment="+localAssignment;
+	var url = "src/1080template.html?assignment="+localAssignment;
 	window.open(url, "_blank");
 }
 
