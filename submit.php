@@ -22,7 +22,7 @@ $servername = "204.93.177.137:3306";
 
 $username = "evlascom_TryCatch";
 
-$password = "Nrs8982!";
+$password = "myReallySecurePassword123456";
 
 $dbname = "evlascom_TryCatchData";
 
